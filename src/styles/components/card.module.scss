@@ -1,0 +1,39 @@
+@import "../base/config";
+
+$card-sub-fs: 18px;
+$card-sub-color: $white;
+$card-h-fs: 32px;
+$card-h-color: $white;
+
+.card {
+  display: block;
+  width: 300px;
+  height: 200px;
+  background: transparent;
+  border: 1px solid $white;
+  border-radius: 20px;
+  padding: 10px;
+
+  h4 {
+    font-size: $card-sub-fs;
+    color: $card-sub-color;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: $card-h-fs;
+    font-weight: 100;
+    color: $card-h-color;
+  }
+}
+
+@media screen and (min-width: $break-mobile) {
+  .card {
+    width: 300px;
+    height: 350px;
+    background: transparent;
+    border: 1px solid $white;
+    border-radius: 20px;
+    padding: 10px;
+  }
+}
