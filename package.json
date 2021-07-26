@@ -2,6 +2,10 @@
   "name": "hbh-website",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisintae/hbh-website.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,6 +14,7 @@
   "dependencies": {
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sass": "^1.36.0"
   }
 }
